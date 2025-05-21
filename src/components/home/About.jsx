@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../../assets/avatar.webp";
+import avatar from "../../assets/avatar2.webp";
 const About = () => {
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 justify-between items-center gap-10 mb-10 sm:mb-40">
@@ -18,11 +18,11 @@ const About = () => {
                 outstanding user experiences while continuously expanding my
                 technical expertise.
             </h1>
-            <div className="sm:col-span-1 transition duration-300 w-1/2 sm:w-48 md:w-64 lg:w-1/2 aspect-square mx-auto shadow-lg hover:shadow-sm shadow-neutral-900 hover:shadow-red-400 rounded-lg overflow-hidden">
+            <div className="sm:col-span-1 transition duration-300 w-3/4 sm:w-48 md:w-64 lg:w-1/2 aspect-square mx-auto shadow-lg hover:shadow-sm shadow-neutral-900 hover:shadow-red-400 rounded-lg overflow-hidden">
                 {" "}
                 <img
                     src={avatar}
-                    className="w-full object-contain rounded"
+                    className="w-full object-cover rounded"
                     alt=""
                 />
             </div>
