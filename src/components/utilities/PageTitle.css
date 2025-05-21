@@ -1,0 +1,5 @@
+.stroke {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: grey;
+    color: transparent !important;
+}

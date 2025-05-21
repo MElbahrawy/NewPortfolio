@@ -1,0 +1,17 @@
+body {
+    min-height: 100vh !important;
+    max-width: 100vw !important;
+    overflow-x: hidden;
+}
+.App > div {
+    background-image: url("./assets/bg-effect.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    font-family: "roboto", sans-serif;
+}
+.rtl {
+    direction: rtl;
+    font-family: "Almarai", sans-serif;
+}
