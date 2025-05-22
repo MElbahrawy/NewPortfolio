@@ -2,8 +2,16 @@ import React from "react";
 import avatar from "../../assets/avatar2.webp";
 const About = () => {
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 justify-between items-center gap-10 mb-10 sm:mb-40">
-            <h1 className="text-xl sm:text-sm md:text-xl  dark:text-white">
+        <div className="flex flex-wrap-reverse sm:grid-cols-2 justify-between items-center gap-10 mb-10 sm:mb-40">
+            <div className=" transition duration-300 w-3/4 sm:w-48 md:w-64 lg:w-1/4 aspect-square mx-auto shadow-lg hover:shadow-sm shadow-neutral-900 hover:shadow-red-400 rounded-lg overflow-hidden">
+                {" "}
+                <img
+                    src={avatar}
+                    className="w-full object-cover rounded"
+                    alt=""
+                />
+            </div>
+            <h1 className="w-full sm:w-1/2 text-xl sm:text-sm md:text-xl  dark:text-white">
                 <span className="font-bold text-red-400 text-2xl uppercase">
                     Who am i?
                 </span>{" "}
@@ -18,14 +26,6 @@ const About = () => {
                 outstanding user experiences while continuously expanding my
                 technical expertise.
             </h1>
-            <div className="sm:col-span-1 transition duration-300 w-3/4 sm:w-48 md:w-64 lg:w-1/2 aspect-square mx-auto shadow-lg hover:shadow-sm shadow-neutral-900 hover:shadow-red-400 rounded-lg overflow-hidden">
-                {" "}
-                <img
-                    src={avatar}
-                    className="w-full object-cover rounded"
-                    alt=""
-                />
-            </div>
         </div>
     );
 };

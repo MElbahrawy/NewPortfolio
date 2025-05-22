@@ -10,7 +10,7 @@ import Footer from "./components/utilities/Footer";
 
 function App() {
     const { i18n } = useTranslation();
-    const [isDark, setIsDark] = useState(false);
+    const [isDark, setIsDark] = useState(true);
     useEffect(() => {
         const theme = localStorage.getItem("isDark");
         theme !== null && setIsDark(theme === "true" ? true : false);
