@@ -5,11 +5,11 @@ import { TypeAnimation } from "react-type-animation";
 const Landing = () => {
   const text = [
     "Frontend Developer",
-    500,
+    1000,
     "Web Developer",
     500,
-    "software developer",
-    500,
+    "React developer",
+    1000,
   ];
   return (
     <div className="grid min-h-[calc(100vh-76px)] grid-cols-1 sm:grid-cols-2 justify-between items-center">
