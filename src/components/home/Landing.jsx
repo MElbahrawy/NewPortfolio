@@ -13,17 +13,35 @@ const Landing = () => {
   ];
   return (
     <div className="grid min-h-[calc(100vh-76px)] grid-cols-1 sm:grid-cols-2 justify-between items-center">
-      <h1 className="text-4xl sm:text-5xl md:text-6xl  dark:text-white">
-        Hello, <br />
-        This is{" "}
-        <span className="text-red-400 font-bold">Mohamed El Bahrawy</span> , I'm
-        a <br />{" "}
-        <TypeAnimation
-          sequence={text}
-          className="text-red-400 font-bold"
-          repeat={Infinity}
-        />
-      </h1>
+      <div>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl  dark:text-white">
+          Hello, <br />
+          This is{" "}
+          <span className="text-red-400 font-bold">Mohamed El Bahrawy</span> ,
+          I'm a <br />{" "}
+          <TypeAnimation
+            sequence={text}
+            className="text-red-400 font-bold"
+            repeat={Infinity}
+          />
+        </h1>
+        <a
+          href="https://drive.google.com/file/d/1TqdfWNwQVyjPc-o_QZBfH9KBp68aDQZD/view?usp=drive_link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="bg-red-400 hover:bg-red-600 transition rounded text-white text-start py-2 px-6 mt-4">
+            Get CV{" "}
+            <img
+              width="24"
+              height="24"
+              className="ml-2 inline-block"
+              src="https://img.icons8.com/material-rounded/24/ffffff/download--v1.png"
+              alt="download--v1"
+            />
+          </button>
+        </a>
+      </div>
       <div className="sm:col-span-1 transition duration-300  aspect-square mx-auto  rounded-lg overflow-hidden">
         {" "}
         <img src={landing} className="w-full object-contain rounded" alt="" />

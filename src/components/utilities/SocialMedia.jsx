@@ -25,13 +25,14 @@ const SocialMedia = () => {
   ];
   return (
     <div>
-      <h3 className="text-2xl font-bold mb-4 dark:text-white">
+      <h3 className="text-2xl font-bold my-4 dark:text-white">
         Find me on Social Media
       </h3>
       <div className="flex flex-wrap gap-4">
         {socialMedia.map((media) => (
           <a
             href={media.link}
+            key={media.name}
             target="_blank"
             rel="noreferrer"
             className="bg-white transition rounded-full p-1 hover:bg-red-400"

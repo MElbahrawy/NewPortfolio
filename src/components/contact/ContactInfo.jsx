@@ -3,15 +3,14 @@ import SocialMedia from "../utilities/SocialMedia";
 
 const ContactInfo = () => {
   return (
-    <div className="w-1/2">
+    <div className="">
       <h1 className=" text-3xl font-bold text-red-400 uppercase">
         Let's Work Together!
       </h1>
       <p className=" my-4 dark:text-white">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-        vero reprehenderit sed. Voluptatem, cupiditate iste alias fugit ullam,
-        voluptas autem eius quasi natus ab atque ad quo provident impedit
-        asperiores.
+        If you have any questions or concerns, please don't hesitate to contact
+        me. I am open to any work opportunities that align with my skills and
+        interests.
       </p>
       <SocialMedia />
     </div>
