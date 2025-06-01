@@ -17,11 +17,11 @@ const Landing = () => {
         <h1 className="text-4xl sm:text-5xl md:text-6xl  dark:text-white">
           Hello, <br />
           This is{" "}
-          <span className="text-red-400 font-bold">Mohamed El Bahrawy</span> ,
-          I'm a <br />{" "}
+          <span className="text-main font-bold">Mohamed El Bahrawy</span> , I'm
+          a <br />{" "}
           <TypeAnimation
             sequence={text}
-            className="text-red-400 font-bold"
+            className="text-main font-bold"
             repeat={Infinity}
           />
         </h1>
@@ -30,7 +30,7 @@ const Landing = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <button className="bg-red-400 hover:bg-red-600 transition rounded text-white text-start py-2 px-6 mt-4">
+          <button className=" bg-gradient-to-r from-main to-secondary rounded text-white text-start py-2 px-6 mt-4 hover:to-secondary-dark transition">
             Get CV{" "}
             <img
               width="24"

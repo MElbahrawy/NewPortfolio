@@ -1,0 +1,115 @@
+[
+  {
+    "title": "Travel Company",
+    "img": "/assets/Travel.webp",
+    "live": "https://melbahrawy.github.io/Travel/",
+    "github": "https://github.com/MElbahrawy/Travel",
+    "category": "HTML&CSS",
+    "tools": ["HTML", "CSS", "bootstrap"]
+  },
+  {
+    "title": "Kasper Company",
+    "img": "/assets/Kaspers.webp",
+    "live": "https://melbahrawy.github.io/Kasper-Training/",
+    "github": "https://github.com/MElbahrawy/Kasper-Training",
+    "category": "HTML&CSS",
+    "tools": ["HTML", "CSS"]
+  },
+  {
+    "title": "Elzero Template",
+    "img": "/assets/Elzero.webp",
+    "live": "https://melbahrawy.github.io/Elzero-Training/#",
+    "github": "https://github.com/MElbahrawy/Elzero-Training",
+    "category": "HTML&CSS",
+    "tools": ["HTML", "CSS"]
+  },
+  {
+    "title": "Login Page",
+    "img": "/assets/LoginPage.webp",
+    "live": "https://melbahrawy.github.io/LoginPage/",
+    "github": "https://github.com/MElbahrawy/LoginPage",
+    "category": "HTML&CSS",
+    "tools": ["HTML", "CSS"]
+  },
+  {
+    "title": "To-Do List",
+    "img": "/assets/todolist.webp",
+    "live": "https://melbahrawy.github.io/TodoList/",
+    "github": "https://github.com/MElbahrawy/TodoList",
+    "category": "JavaScript",
+    "tools": ["JavaScript", "bootstrap"]
+  },
+  {
+    "title": "Typing Speed Test",
+    "img": "/assets/Typing Speed Test.webp",
+    "live": "https://testyourtypingskills.vercel.app/",
+    "github": "https://github.com/MElbahrawy/TypingSpeedTest",
+    "category": "JavaScript",
+    "tools": ["JavaScript", "Api"]
+  },
+  {
+    "title": "Currency Exchange",
+    "img": "/assets/CurrencyExchange.webp",
+    "live": "https://melbahrawy.github.io/CurrancyExchange/",
+    "github": "https://github.com/MElbahrawy/CurrancyExchange",
+    "category": "JavaScript",
+    "tools": ["JavaScript", "Api", "bootstrap"]
+  },
+  {
+    "title": "Github Rebos",
+    "img": "/assets/Github-Rebos.webp",
+    "live": "https://melbahrawy.github.io/Github-Rebos/",
+    "github": "https://github.com/MElbahrawy/Github-Rebos",
+    "category": "JavaScript",
+    "tools": ["JavaScript", "Api"]
+  },
+  {
+    "title": "PopStore",
+    "img": "/assets/PopStore.webp",
+    "live": "https://popstore.vercel.app/home",
+    "github": "https://github.com/MElbahrawy/PopStore",
+    "category": "React",
+    "tools": ["React", "hooks", "Routing", "bootstrap"]
+  },
+  {
+    "title": "Question-Answer",
+    "img": "/assets/question-answer.webp",
+    "live": "https://question-answer-omega.vercel.app",
+    "github": "https://github.com/MElbahrawy/Question-Answer",
+    "category": "React",
+    "tools": ["React", "hooks", "bootstrap"]
+  },
+  {
+    "title": "Friends Fan Test",
+    "img": "/assets/Friends Fan Test.webp",
+    "live": "https://friends-fan-test.vercel.app/",
+    "github": "",
+    "category": "React",
+    "tools": ["React", "hooks", "Matrial UI"]
+  },
+  {
+    "title": "Elev5",
+    "img": "/assets/Elev5.webp",
+    "live": "https://elv5.vercel.app/",
+    "article": "https://www.linkedin.com/posts/melbahrawy_reactjs-webdevelopment-iot-activity-7218270627051278338-DSDp?utm_source=share&utm_medium=member_desktop",
+    "category": "React",
+    "tools": ["React", "hooks", "bootstrap"]
+  },
+  {
+    "title": "Insurance Brokerage",
+    "img": "/assets/bib-eg.webp",
+    "live": "https://insurancebrokeragecompany.vercel.app/",
+    "github": "https://github.com/MElbahrawy/InsuranceBrokerageCompany",
+    "category": "React",
+    "tools": ["React", "Routing", "bootstrap"]
+  },
+  {
+    "title": "Your way to America",
+    "img": "/assets/yourwaytoamerica.webp",
+    "live": "https://yourwaytoamerica.com/",
+    "article": "https://www.linkedin.com/posts/melbahrawy_reactdeveloper-webdevelopment-freelancelife-activity-7250476866308886529-7ivy",
+    "category": "React",
+    "tools": ["React", "Routing", "bootstrap"],
+    "description": "a WordPress travel website into a dynamic React application using React.js and Bootstrap. Added new features and enhancements, delivering an increase in optimization which is saving time by 40% and modernized user experience."
+  }
+]
