@@ -4,7 +4,7 @@ import SocialMedia from "../utilities/SocialMedia";
 const ContactInfo = () => {
   return (
     <div className="">
-      <h1 className=" text-3xl font-bold text-red-400 uppercase">
+      <h1 className=" text-3xl font-bold bg-gradient-to-r from-main to-secondary bg-clip-text text-transparent uppercase">
         Let's Work Together!
       </h1>
       <p className=" my-4 dark:text-white">

@@ -1,12 +1,13 @@
 import React from "react";
 import ProgressCard from "../utilities/ProgressCard";
+import Heading from "./Heading";
 
 const Experience = () => {
   const jobs = [
     {
       title: "Frontend Developer",
       company: "Freelance",
-      jobDuration: "09/2024 - Present",
+      jobDuration: "09/2024 - 04/2025",
       location: "Remote",
       description:
         "Worked alongside another React developer on multiple projects, including a job portal website, a beauty center website, and a hosting/server management company website. Developed new sections, completed frontend tasks, and optimized a travel assistance website.",
@@ -31,11 +32,9 @@ const Experience = () => {
   return (
     <div>
       <div className="my-24">
-        <h1 className="text-2xl pt-14 font-bold text-center uppercase dark:text-white mb-10">
-          Experience
-        </h1>
+        <Heading title="Experience" />
         <div className="relative flex flex-col py-2">
-          <div className="w-2 h-full rounded bg-gray-800 dark:bg-white absolute -left-4 md:left-1/2 md:transform md:-translate-x-1/2"></div>
+          <div className="w-2 h-full rounded bg-main-light dark:bg-white absolute -left-4 md:left-1/2 md:transform md:-translate-x-1/2"></div>
           {jobs.map((job, index) => (
             <ProgressCard key={index} job={job} className="" />
           ))}

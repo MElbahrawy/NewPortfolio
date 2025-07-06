@@ -14,14 +14,16 @@ const Landing = () => {
   return (
     <div className="grid min-h-[calc(100vh-76px)] grid-cols-1 sm:grid-cols-2 justify-between items-center">
       <div>
-        <h1 className="text-4xl sm:text-5xl md:text-6xl  dark:text-white">
-          Hello, <br />
-          This is{" "}
-          <span className="text-main font-bold">Mohamed El Bahrawy</span> , I'm
-          a <br />{" "}
+        <h1 className="text-3xl sm:text-4xl md:text-5xl ">
+          Hello, This is
+          <br />
+          <span className="text-transparent bg-gradient-to-r from-main via-secondary to-main bg-clip-text text-4xl sm:text-5xl md:text-6xl font-bold">
+            Mohamed El Bahrawy
+          </span>{" "}
+          <br />a{" "}
           <TypeAnimation
             sequence={text}
-            className="text-main font-bold"
+            className="text-transparent bg-gradient-to-r from-main to-secondary bg-clip-text text-4xl sm:text-5xl md:text-6xl font-bold"
             repeat={Infinity}
           />
         </h1>

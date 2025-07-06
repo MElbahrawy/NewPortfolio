@@ -1,9 +1,10 @@
 import React from "react";
+import Heading from "./Heading";
 
 const Summary = () => {
   const obj = {
-    address: "Jersey City, NJ",
-    phone: "+201151245412",
+    address: "Manhattan, New York",
+    phone: "+1 (347) 681-6076",
     email: "mohamedelbahrawy512@gmail.com",
     softSkills: [
       "Problem Solving",
@@ -27,12 +28,10 @@ const Summary = () => {
   };
   return (
     <div className="mb-28">
-      <h1 className="text-2xl pt-14 font-bold text-center uppercase dark:text-white mb-10">
-        Summary
-      </h1>
+      <Heading title="Summary" />
       <div className="grid grid-col-1 lg:grid-cols-2 gap-10 items-center">
         <div className=" text-center lg:text-left">
-          <h2 className="text-3xl  uppercase font-bold mb-5 text-main">
+          <h2 className="text-3xl  uppercase font-bold mb-5 text-transparent bg-gradient-to-r from-main to-secondary bg-clip-text ">
             Mohamed Alaa El-Deen El-Bahrawy
           </h2>
           <p className="dark:text-white ">
@@ -47,32 +46,46 @@ const Summary = () => {
           </p>
         </div>
         <div>
-          <div className="w-3/4 mx-auto font-mono rounded-lg shadow-lg bg-gray-800 text-white hover:scale-110 transition">
-            <div className="w-full flex gap-3 border-b-2 border-gray-600 p-2">
+          <div className="w-3/4 mx-auto font-mono rounded-lg shadow-lg bg-slate-100 dark:bg-gray-800 text-white ">
+            <div className="w-full flex gap-3 border-b-2 border-slate-300 dark:border-gray-600 p-2">
               <span className="size-3 rounded-full bg-red-600"></span>
               <span className="size-3 rounded-full bg-orange-600"></span>
               <span className="size-3 rounded-full bg-green-600"></span>
             </div>
-            <div className="p-4 break-words">
+            <div className="p-4 break-words text-dark dark:text-white">
               <p className=" mb-2">
-                <span className="text-pink-700">Age:</span>{" "}
+                <span className="text-main-light">Age:</span>{" "}
                 {new Date().getFullYear() - 2002};
               </p>
               <p className=" mb-2">
-                <span className="text-pink-700">Address:</span> {obj.address};
+                <span className="text-main-light">Address:</span> {obj.address};
               </p>
               <p className=" mb-2">
-                <span className="text-pink-700">Phone:</span> {obj.phone};
+                <span className="text-main-light">Phone:</span>{" "}
+                <a
+                  className="hover:text-main-dark transition"
+                  href={`tel:${obj.phone}`}
+                >
+                  {obj.phone}
+                </a>
+                ;
               </p>
               <p className=" mb-2">
-                <span className="text-pink-700">Email:</span> {obj.email};
+                <span className="text-main-light">Email:</span>{" "}
+                <a
+                  className="hover:text-main-dark transition"
+                  href={`mailto:${obj.email}`}
+                >
+                  {obj.email}
+                </a>
+                ;
               </p>
               <p className=" mb-2">
-                <span className="text-pink-700">Soft Skills:</span> [{" "}
+                <span className="text-main-light">Soft Skills:</span> [{" "}
                 {obj.softSkills.join(", ")} ];
               </p>
               <p className=" mb-2">
-                <span className="text-pink-700">Hard Skills:</span> [{" "}
+                <span className="text-main-light">Hard Skills:</span> [{" "}
                 {obj.skills.slice(0, 3).join(", ")} ];
               </p>
             </div>

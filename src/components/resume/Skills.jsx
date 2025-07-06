@@ -1,5 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+import Heading from "./Heading";
 
 const Skills = () => {
   const skills = [
@@ -35,13 +36,11 @@ const Skills = () => {
   return (
     <div>
       <div className="my-24">
-        <h1 className="text-2xl pt-14 font-bold text-center uppercase dark:text-white mb-10">
-          Skills
-        </h1>
+        <Heading title="Skills" />
         <Marquee
           pauseOnHover={true}
           speed={50}
-          className="border-t-2 border-b-2 border-gray-600 "
+          className="border-t-2 border-b-2 border-slate-300 dark:border-gray-600 "
         >
           {skills.map((skill, index) => (
             <div
@@ -49,7 +48,7 @@ const Skills = () => {
               className="flex flex-col justify-center items-center gap-2 p-10"
             >
               <img src={skill.img} alt={"icon8 website"} className="size-16" />
-              <p className="text-lg font-semibold dark:text-white">
+              <p className="text-lg font-semibold text-dark-light dark:text-white">
                 {skill.name}
               </p>
             </div>

@@ -40,8 +40,8 @@ const ContactForm = () => {
     }
   };
   return (
-    <div className=" bg-gray-300 dark:bg-gray-900 p-4 rounded-lg shadow-md">
-      <h2 className="text-3xl font-bold mb-4 text-center dark:text-red-400">
+    <div className=" bg-slate-100 dark:bg-gray-900 p-4 rounded-lg shadow-md">
+      <h2 className="text-3xl font-bold mb-4 text-center text-main-light">
         Get in Touch
       </h2>
       <form action="">
@@ -50,7 +50,7 @@ const ContactForm = () => {
             <div key={data.name}>
               <label
                 htmlFor={data.name}
-                className="mb-2 font-bold block dark:text-white"
+                className="mb-2 font-bold block text-dark-light dark:text-white"
               >
                 {data.label}
               </label>
@@ -65,7 +65,7 @@ const ContactForm = () => {
                   placeholder={data.placeholder}
                   cols="10"
                   rows="5"
-                  className="w-full p-2 block rounded  bg-gray-800 outline-none focus:border-b-2 focus:border-gray-400 dark:text-white "
+                  className="w-full p-2 block rounded  dark:bg-gray-800 outline-none focus:border-b-2 focus:border-gray-400 dark:text-white "
                 ></textarea>
               </div>
               {errors[data.name] && (
@@ -76,7 +76,7 @@ const ContactForm = () => {
             <div key={data.name} className="my-6">
               <label
                 htmlFor={data.name}
-                className="mb-2 font-bold block dark:text-white"
+                className="mb-2 font-bold block text-dark-light dark:text-white"
               >
                 {data.label}
               </label>
@@ -90,7 +90,7 @@ const ContactForm = () => {
                   name={data.name}
                   id={data.name}
                   placeholder={data.placeholder}
-                  className="w-full p-2 block rounded  bg-gray-800 outline-none  focus:border-b-2 focus:border-gray-400 dark:text-white "
+                  className="w-full p-2 block rounded  dark:bg-gray-800 outline-none  focus:border-b-2 focus:border-gray-400 dark:text-white "
                 />
               </div>
               {errors[data.name] && (
@@ -100,7 +100,7 @@ const ContactForm = () => {
           )
         )}
         <button
-          className="bg-red-600 transition w-full my-5 hover:bg-red-800 text-white py-3 px-4 rounded"
+          className="bg-gradient-to-r from-main-light to-secondary-light  w-full my-5 hover:from-main hover:to-secondary transition text-white py-3 px-4 rounded"
           onClick={handleSubmit}
         >
           Send Message

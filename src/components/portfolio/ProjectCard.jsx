@@ -79,14 +79,22 @@ const ProjectCard = ({ project }) => {
           </a>
         )}
       </div>
-      <div className="absolute transition-all duration-300 bg-gray-800  text-white  shadow-lg -bottom-48 group-hover:bottom-0 left-0 w-full p-2">
-        <h2 className="text-xl font-bold mb-2">{title}</h2>
+      <div className="absolute transition-all duration-300 bg-slate-300 dark:bg-gray-800  dark:text-white  shadow-lg -bottom-48 group-hover:bottom-0 left-0 w-full p-2">
+        <h2 className="text-xl font-bold mb-2">
+          <a
+            href={live ? live : article ? article : github ? github : ""}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {title}
+          </a>
+        </h2>
         <p className=" max-h-20 text-xs overflow-y-auto ">{description}</p>
         <div className="flex gap-1 items-center mt-4">
           {tools.map((tool, index) => (
             <p
               key={index}
-              className="bg-main hover:bg-main-dark  text-[0.6rem] p-1 rounded"
+              className="bg-main hover:bg-main-dark text-white text-[0.6rem] p-1 rounded"
             >
               {tool}
             </p>

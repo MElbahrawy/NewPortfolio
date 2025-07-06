@@ -5,7 +5,8 @@
     "live": "https://melbahrawy.github.io/Travel/",
     "github": "https://github.com/MElbahrawy/Travel",
     "category": "HTML&CSS",
-    "tools": ["HTML", "CSS", "bootstrap"]
+    "tools": ["HTML", "CSS", "bootstrap"],
+    "description": "A visually rich and responsive travel agency website, built as a CSS training project to demonstrate layout design, media usage, and smooth styling"
   },
   {
     "title": "Kasper Company",
@@ -13,7 +14,8 @@
     "live": "https://melbahrawy.github.io/Kasper-Training/",
     "github": "https://github.com/MElbahrawy/Kasper-Training",
     "category": "HTML&CSS",
-    "tools": ["HTML", "CSS"]
+    "tools": ["HTML", "CSS"],
+    "description": "A creative portfolio site designed for an art company, used as a training project to explore advanced CSS styling and layout techniques"
   },
   {
     "title": "Elzero Template",
@@ -21,7 +23,8 @@
     "live": "https://melbahrawy.github.io/Elzero-Training/#",
     "github": "https://github.com/MElbahrawy/Elzero-Training",
     "category": "HTML&CSS",
-    "tools": ["HTML", "CSS"]
+    "tools": ["HTML", "CSS"],
+    "description": "A visually engaging team portfolio showcasing each member’s role and projects, enhanced with CSS animations for a dynamic presentation"
   },
   {
     "title": "Login Page",
@@ -29,7 +32,8 @@
     "live": "https://melbahrawy.github.io/LoginPage/",
     "github": "https://github.com/MElbahrawy/LoginPage",
     "category": "HTML&CSS",
-    "tools": ["HTML", "CSS"]
+    "tools": ["HTML", "CSS"],
+    "description": "A stylish login page built using only HTML and CSS, featuring smooth animations that enhance the user experience without any JavaScript"
   },
   {
     "title": "To-Do List",
@@ -37,7 +41,8 @@
     "live": "https://melbahrawy.github.io/TodoList/",
     "github": "https://github.com/MElbahrawy/TodoList",
     "category": "JavaScript",
-    "tools": ["JavaScript", "bootstrap"]
+    "tools": ["JavaScript", "bootstrap"],
+    "description": "A clean and minimalistic to-do list app that helps users manage their daily tasks with ease. Add, complete, or delete tasks in one click"
   },
   {
     "title": "Typing Speed Test",
@@ -45,7 +50,8 @@
     "live": "https://testyourtypingskills.vercel.app/",
     "github": "https://github.com/MElbahrawy/TypingSpeedTest",
     "category": "JavaScript",
-    "tools": ["JavaScript", "Api"]
+    "tools": ["JavaScript", "Api"],
+    "description": "A game designed with pure JavaScript to test your typing speed. Training on JavaScript and Local Storage"
   },
   {
     "title": "Currency Exchange",
@@ -53,7 +59,8 @@
     "live": "https://melbahrawy.github.io/CurrancyExchange/",
     "github": "https://github.com/MElbahrawy/CurrancyExchange",
     "category": "JavaScript",
-    "tools": ["JavaScript", "Api", "bootstrap"]
+    "tools": ["JavaScript", "Api", "bootstrap"],
+    "description": "A real-time currency converter that allows users to exchange money between countries using live exchange rates, providing fast and accurate calculations"
   },
   {
     "title": "Github Rebos",
@@ -61,7 +68,8 @@
     "live": "https://melbahrawy.github.io/Github-Rebos/",
     "github": "https://github.com/MElbahrawy/Github-Rebos",
     "category": "JavaScript",
-    "tools": ["JavaScript", "Api"]
+    "tools": ["JavaScript", "Api"],
+    "description": "An app to get anyone Repositories by their username on Github. Training for JavaScript and Api skills"
   },
   {
     "title": "PopStore",
@@ -69,7 +77,8 @@
     "live": "https://popstore.vercel.app/home",
     "github": "https://github.com/MElbahrawy/PopStore",
     "category": "React",
-    "tools": ["React", "hooks", "Routing", "bootstrap"]
+    "tools": ["React", "hooks", "Routing", "bootstrap"],
+    "description": "A simple E-Commerce app as a finial project for the Iti internship, used to display products and use what was learned in React, hooks, and API"
   },
   {
     "title": "Question-Answer",
@@ -77,7 +86,8 @@
     "live": "https://question-answer-omega.vercel.app",
     "github": "https://github.com/MElbahrawy/Question-Answer",
     "category": "React",
-    "tools": ["React", "hooks", "bootstrap"]
+    "tools": ["React", "hooks", "bootstrap"],
+    "description": "A program for adding and displaying training questions and answers "
   },
   {
     "title": "Friends Fan Test",
@@ -85,7 +95,8 @@
     "live": "https://friends-fan-test.vercel.app/",
     "github": "",
     "category": "React",
-    "tools": ["React", "hooks", "Matrial UI"]
+    "tools": ["React", "hooks", "Matrial UI"],
+    "description": "Built a quiz application for Friends TV show fans using React.js, hooks, and Material UI for engaging user experience"
   },
   {
     "title": "Elev5",
@@ -93,7 +104,8 @@
     "live": "https://elv5.vercel.app/",
     "article": "https://www.linkedin.com/posts/melbahrawy_reactjs-webdevelopment-iot-activity-7218270627051278338-DSDp?utm_source=share&utm_medium=member_desktop",
     "category": "React",
-    "tools": ["React", "hooks", "bootstrap"]
+    "tools": ["React", "hooks", "bootstrap"],
+    "description": "Created a smart elevator web application with React.js, hooks, and Bootstrap. Features include user login and registration, an admin dashboard, a user posting page for communication, and ensuring 100% mobile responsiveness"
   },
   {
     "title": "Insurance Brokerage",
@@ -101,7 +113,8 @@
     "live": "https://insurancebrokeragecompany.vercel.app/",
     "github": "https://github.com/MElbahrawy/InsuranceBrokerageCompany",
     "category": "React",
-    "tools": ["React", "Routing", "bootstrap"]
+    "tools": ["React", "Routing", "bootstrap"],
+    "description": "I transformed an outdated brokerage insurance website into a modern, fully optimized React application. The project included a complete redesign, adding Egyptian Arabic language support to enhance user engagement, content reordering, introducing a new application section, improving navigation, optimizing for mobile, and achieving faster rendering for a seamless user experience."
   },
   {
     "title": "Your way to America",
@@ -111,5 +124,13 @@
     "category": "React",
     "tools": ["React", "Routing", "bootstrap"],
     "description": "a WordPress travel website into a dynamic React application using React.js and Bootstrap. Added new features and enhancements, delivering an increase in optimization which is saving time by 40% and modernized user experience."
+  },
+  {
+    "title": "Job Portal",
+    "img": "/assets/jobportal.webp",
+    "article": "https://www.linkedin.com/posts/melbahrawy_reactjs-webdevelopment-freelancedeveloper-activity-7326994934828261376-xSH1?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGI6ecBOmOXlx7A9-wHgBAV3xtmLKYFhyU",
+    "category": "React",
+    "tools": ["React", "Routing", "bootstrap"],
+    "description": "Built key features including an advanced messaging system (attachments, reactions, edits) and job/applicant management tools (search, filtering, approvals)."
   }
 ]

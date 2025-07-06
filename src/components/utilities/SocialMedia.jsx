@@ -14,7 +14,7 @@ const SocialMedia = () => {
     },
     {
       name: "github",
-      link: "https://github.com/mb47l",
+      link: "https://github.com/MElbahrawy",
       icon: "https://img.icons8.com/fluency/96/github.png",
     },
     {
@@ -25,7 +25,7 @@ const SocialMedia = () => {
   ];
   return (
     <div>
-      <h3 className="text-2xl font-bold my-4 dark:text-white">
+      <h3 className="text-2xl font-bold my-4 text-main-light">
         Find me on Social Media
       </h3>
       <div className="flex flex-wrap gap-4">
@@ -35,7 +35,7 @@ const SocialMedia = () => {
             key={media.name}
             target="_blank"
             rel="noreferrer"
-            className="bg-white transition rounded-full p-1 hover:bg-red-400"
+            className="bg-light-dark dark:bg-light transition rounded-full p-1 hover:bg-main dark:hover:bg-main-light"
           >
             <img src={media.icon} width={28} className="" alt={media.name} />
           </a>

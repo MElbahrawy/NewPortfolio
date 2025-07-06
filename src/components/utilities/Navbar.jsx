@@ -27,13 +27,13 @@ const Navbar = () => {
   return (
     <div
       id="navbar"
-      className="flex sm:bg-transparent bg-slate-900  rounded-3xl sm:flex-col py-5 px-4 gap-5 fixed bottom-4 sm:bottom-1/2 start-1/2 sm:start-0 -translate-x-1/2  sm:-translate-x-0 sm:translate-y-1/2  bg-opacity-60 z-50"
+      className="flex sm:bg-transparent bg-dark-light  rounded-3xl sm:flex-col py-5 px-4 gap-5 fixed bottom-4 sm:bottom-1/2 start-1/2 sm:start-0 -translate-x-1/2  sm:-translate-x-0 sm:translate-y-1/2  bg-opacity-60 z-50"
     >
       {navs.map((nav) => (
         <NavLink
           to={nav.path}
           key={nav.name}
-          className="relative text-red-400  group p-2"
+          className="relative text-main  group p-2"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
