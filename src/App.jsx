@@ -7,11 +7,18 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/utilities/Navbar";
 import DarkBtn from "./components/utilities/DarkBtn";
 import Footer from "./components/utilities/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const { i18n } = useTranslation();
   const [isDark, setIsDark] = useState(true);
   useEffect(() => {
+    AOS.init({
+      duration: 900,
+      easing: "ease-out-cubic",
+      anchorPlacement: "center-bottom",
+    });
     const theme = localStorage.getItem("isDark");
     theme !== null && setIsDark(theme === "true" ? true : false);
   }, []);

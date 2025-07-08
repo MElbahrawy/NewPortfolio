@@ -37,23 +37,29 @@ const Skills = () => {
     <div>
       <div className="my-24">
         <Heading title="Skills" />
-        <Marquee
-          pauseOnHover={true}
-          speed={50}
-          className="border-t-2 border-b-2 border-slate-300 dark:border-gray-600 "
-        >
-          {skills.map((skill, index) => (
-            <div
-              key={index}
-              className="flex flex-col justify-center items-center gap-2 p-10"
-            >
-              <img src={skill.img} alt={"icon8 website"} className="size-16" />
-              <p className="text-lg font-semibold text-dark-light dark:text-white">
-                {skill.name}
-              </p>
-            </div>
-          ))}
-        </Marquee>
+        <div data-aos="flip-up">
+          <Marquee
+            pauseOnHover={true}
+            speed={50}
+            className="border-t-2 border-b-2 border-slate-300 dark:border-gray-600 "
+          >
+            {skills.map((skill, index) => (
+              <div
+                key={index}
+                className="flex flex-col justify-center items-center gap-2 p-10"
+              >
+                <img
+                  src={skill.img}
+                  alt={"icon8 website"}
+                  className="size-16"
+                />
+                <p className="text-lg font-semibold text-dark-light dark:text-white">
+                  {skill.name}
+                </p>
+              </div>
+            ))}
+          </Marquee>
+        </div>
       </div>
     </div>
   );

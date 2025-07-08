@@ -31,10 +31,13 @@ const Summary = () => {
       <Heading title="Summary" />
       <div className="grid grid-col-1 lg:grid-cols-2 gap-10 items-center">
         <div className=" text-center lg:text-left">
-          <h2 className="text-3xl  uppercase font-bold mb-5 text-transparent bg-gradient-to-r from-main to-secondary bg-clip-text ">
+          <h2
+            data-aos="fade-down"
+            className="text-3xl  uppercase font-bold mb-5 text-transparent bg-gradient-to-r from-main to-secondary bg-clip-text "
+          >
             Mohamed Alaa El-Deen El-Bahrawy
           </h2>
-          <p className="dark:text-white ">
+          <p data-aos="fade-up" className="dark:text-white ">
             Junior Frontend Developer with hands-on experience in building and
             enhancing web applications using React.js, JavaScript (ES6), HTML5,
             CSS3, and Bootstrap. Passionate about creating responsive, user-
@@ -46,7 +49,10 @@ const Summary = () => {
           </p>
         </div>
         <div>
-          <div className="w-3/4 mx-auto font-mono rounded-lg shadow-lg bg-slate-100 dark:bg-gray-800 text-white ">
+          <div
+            data-aos="flip-up"
+            className="w-3/4 mx-auto font-mono rounded-lg shadow-lg bg-slate-100 dark:bg-gray-800 text-white "
+          >
             <div className="w-full flex gap-3 border-b-2 border-slate-300 dark:border-gray-600 p-2">
               <span className="size-3 rounded-full bg-red-600"></span>
               <span className="size-3 rounded-full bg-orange-600"></span>

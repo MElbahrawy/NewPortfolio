@@ -3,7 +3,7 @@ import React from "react";
 const PortfolioFilter = ({ filter, setFilter }) => {
   const filters = ["All", "React", "Javascript", "HTML&CSS"];
   return (
-    <div className="flex justify-center gap-4 mb-10">
+    <div data-aos="fade-up" className="flex justify-center gap-4 mb-10">
       {filters.map((currentFilter) => (
         <button
           key={currentFilter}

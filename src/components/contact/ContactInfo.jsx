@@ -3,7 +3,7 @@ import SocialMedia from "../utilities/SocialMedia";
 
 const ContactInfo = () => {
   return (
-    <div className="">
+    <div data-aos="fade-right" data-aos-delay="600" className="">
       <h1 className=" text-3xl font-bold bg-gradient-to-r from-main to-secondary bg-clip-text text-transparent uppercase">
         Let's Work Together!
       </h1>

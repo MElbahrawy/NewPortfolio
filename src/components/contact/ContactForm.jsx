@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import ValidateForm from "../../utilities/ValidateContactForm";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
 
 const ContactForm = () => {
   const contactData = [
@@ -33,14 +35,36 @@ const ContactForm = () => {
     e.preventDefault();
     const response = ValidateForm(form);
     if (Object.keys(response).length === 0) {
-      console.log("form submitted");
+      sendEmail();
     } else {
       setErrors(response);
-      console.log(response);
     }
   };
+
+  const sendEmail = () => {
+    emailjs
+      .send("service_n7ticw2", "template_34gdr0a", form, {
+        publicKey: "lhLR1wR7UknVVm8ju",
+      })
+      .then(
+        () => {
+          notify();
+          setForm({ name: "", email: "", message: "" });
+        },
+        (error) => {
+          alert(error);
+        }
+      );
+  };
+  const notify = () =>
+    toast("I got your message!, I will contact you soon.", {
+      theme: "dark",
+    });
   return (
-    <div className=" bg-slate-100 dark:bg-gray-900 p-4 rounded-lg shadow-md">
+    <div
+      data-aos="flip-right"
+      className=" bg-slate-100 dark:bg-gray-900 p-4 rounded-lg shadow-md"
+    >
       <h2 className="text-3xl font-bold mb-4 text-center text-main-light">
         Get in Touch
       </h2>
@@ -106,6 +130,7 @@ const ContactForm = () => {
           Send Message
         </button>
       </form>
+      <ToastContainer />
     </div>
   );
 };

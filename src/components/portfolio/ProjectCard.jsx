@@ -2,10 +2,12 @@ import React from "react";
 
 const ProjectCard = ({ project }) => {
   const { title, description, tools, article, live, github, img } = project;
-  console.log(img);
 
   return (
-    <div className="bg-gray-100 h-80 dark:bg-gray-800 overflow-hidden rounded-lg shadow-lg relative group">
+    <div
+      data-aos="zoom-in"
+      className="bg-gray-100  h-80 dark:bg-gray-800 overflow-hidden rounded-lg shadow-lg relative group"
+    >
       <div className="h-full w-full bg-black">
         <img
           src={img}

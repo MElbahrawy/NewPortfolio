@@ -13,7 +13,7 @@ const Landing = () => {
   ];
   return (
     <div className="grid min-h-[calc(100vh-76px)] grid-cols-1 sm:grid-cols-2 justify-between items-center">
-      <div>
+      <div data-aos="fade-right">
         <h1 className="text-3xl sm:text-4xl md:text-5xl ">
           Hello, This is
           <br />
@@ -44,7 +44,10 @@ const Landing = () => {
           </button>
         </a>
       </div>
-      <div className="sm:col-span-1 transition duration-300  aspect-square mx-auto  rounded-lg overflow-hidden">
+      <div
+        data-aos="fade-down"
+        className="sm:col-span-1 transition duration-300  aspect-square mx-auto  rounded-lg overflow-hidden"
+      >
         {" "}
         <img src={landing} className="w-full object-contain rounded" alt="" />
       </div>
