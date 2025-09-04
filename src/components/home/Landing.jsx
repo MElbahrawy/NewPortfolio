@@ -23,7 +23,7 @@ const Landing = () => {
           <br />a{" "}
           <TypeAnimation
             sequence={text}
-            className="text-transparent bg-gradient-to-r from-main to-secondary bg-clip-text text-4xl sm:text-5xl md:text-6xl font-bold"
+            className="text-transparent bg-gradient-to-r from-main to-secondary bg-clip-text text-2xl sm:text-5xl md:text-6xl font-bold"
             repeat={Infinity}
           />
         </h1>
@@ -45,7 +45,7 @@ const Landing = () => {
         </a>
       </div>
       <div
-        data-aos="fade-down"
+        // data-aos="fade-down"
         className="sm:col-span-1 transition duration-300  aspect-square mx-auto  rounded-lg overflow-hidden"
       >
         {" "}

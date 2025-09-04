@@ -44,7 +44,7 @@ function App() {
       <div className="bg-white text-dark dark:bg-dark dark:text-light z-10 relative">
         <DarkBtn isDark={isDark} setIsDark={handleDarkMode} />
         <Navbar />
-        <div className="container mx-auto">
+        <div className="container mx-auto overflow-hidden">
           <Outlet />
         </div>
         <Footer />

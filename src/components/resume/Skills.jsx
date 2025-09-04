@@ -38,6 +38,9 @@ const Skills = () => {
       <div className="my-24">
         <Heading title="Skills" />
         <div data-aos="flip-up">
+          <p className="text-lg text-dark-light dark:text-white mb-3">
+            I have a strong foundation in the following skills:
+          </p>
           <Marquee
             pauseOnHover={true}
             speed={50}
@@ -59,6 +62,15 @@ const Skills = () => {
               </div>
             ))}
           </Marquee>
+          <p className="text-lg text-dark-light dark:text-white text-center my-3">
+            {skills.map((skill, index) =>
+              index === 0 ? (
+                <span>{skill.name}</span>
+              ) : (
+                <span>, {skill.name}</span>
+              )
+            )}
+          </p>
         </div>
       </div>
     </div>
