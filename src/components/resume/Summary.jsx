@@ -3,7 +3,7 @@ import Heading from "./Heading";
 
 const Summary = () => {
   const obj = {
-    address: "Manhattan, New York",
+    address: "Brooklyn, New York",
     phone: "+1 (347) 681-6076",
     email: "mohamedelbahrawy512@gmail.com",
     softSkills: [
@@ -29,11 +29,14 @@ const Summary = () => {
   return (
     <div className="mb-28">
       <Heading title="Summary" />
-      <div className="grid grid-col-1 lg:grid-cols-2 gap-10 items-center">
+      <div
+        className="grid grid-col-1 lg:grid-cols-2 gap-10 items-center"
+        style={{ overflowWrap: "break-word", wordBreak: "break-word" }}
+      >
         <div className=" text-center lg:text-left">
           <h2
             data-aos="fade-down"
-            className="text-3xl  uppercase font-bold mb-5 text-transparent bg-gradient-to-r from-main to-secondary bg-clip-text "
+            className="text-2xl sm:text-3xl  uppercase font-bold mb-5 text-transparent bg-gradient-to-r from-main to-secondary bg-clip-text "
           >
             Mohamed Alaa El-Deen El-Bahrawy
           </h2>
